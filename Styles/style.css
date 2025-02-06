@@ -1,5 +1,16 @@
-<!-- /* Esta es la seccion 2: Irma  -->
+.header {
+    width:100%;
+    font-family: "Work Sans", serif;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #74c69d;
+    color: white;
+    ;
+}
 
-
-
-
+.fa-solid fa-bars {
+    font-size: 18px;
+}
