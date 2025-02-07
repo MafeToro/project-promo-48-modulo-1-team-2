@@ -1,6 +1,6 @@
 .header {
     width:100%;
-    font-family: "Work Sans", serif;
+    font-family: "Work Sans";
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -12,5 +12,5 @@
 }
 
 .fa-solid fa-bars {
-    font-size: 18px;
+    font-size: 40px;
 }
