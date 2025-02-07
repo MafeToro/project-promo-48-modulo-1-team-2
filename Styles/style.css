@@ -59,7 +59,7 @@
 
 
 .hero-container {
-    height: ;
+    /* height: ; */
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
@@ -106,7 +106,7 @@
 
 .hero-text3 {
     color: white;
-    font-family: "Work Sans", serif;
+    font-family: "Work Sans";
 }
 
 .boton {
