@@ -1,5 +1,25 @@
 <!-- /* Esta es la seccion 2: Irma  -->
 
+/*Seccion de Andrea*/
+
+.group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.title-group {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 
 
