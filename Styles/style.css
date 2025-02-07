@@ -1,4 +1,15 @@
-<!-- /* Esta es la seccion 2: Irma  -->
+.header {
+    width:100%;
+    font-family: "Work Sans", serif;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #74c69d;
+    color: white;
+    ;
+}
 
 /*Seccion de Andrea*/
 
@@ -20,6 +31,50 @@
     font-style: normal;
 }
 
+.fa-solid fa-bars {
+    font-size: 18px;
+}
 
+/* Esta es el hero: Lau  */
 
+.hero-img {
+    background-color: rgb(115, 198, 156);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+}
 
+.img1 {
+    width: 100%;
+    
+}
+
+.hero {
+    background-color: rgb(115, 198, 156);
+}
+
+.text {
+
+}
+
+.hero-text1 {
+    color: white;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.hero-text2 {
+
+}
+
+.hero-text3 {
+
+}
+
+.boton {
+
+}
