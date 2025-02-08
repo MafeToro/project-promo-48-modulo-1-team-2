@@ -1,21 +1,46 @@
 <!-- /* Esta es la seccion 2: Irma  -->*/
 
 .container-section-2 {
+    width: 100%; 
     display: flex;
     flex-direction: column;
-    width: 80%;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
 }
 
 .container-image-chico {
-    width: 70%;
+    width: 100%;   
+}
+
+.chico-img {
+    width: 100%;
+    flex-grow: 0;
+    object-fit: contain;
 }
 
 .container-textos-section-2 {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 16px;
 
 }
+
+.titulo-section-2 {
+    
+}
+
+.caja-negra{
+    background-color: black;
+    color: white;
+    display: inline;
+
+}
+
+
 
 .header {
     width:100%;
