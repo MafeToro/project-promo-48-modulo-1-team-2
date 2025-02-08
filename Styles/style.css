@@ -40,10 +40,8 @@
     padding: 20px;
 }
 
-.group-section {
-    display: flex;
-    align-content: flex-start;
-}
+/* .group-section {
+} */
 
 
 .title-group {
@@ -60,6 +58,7 @@
     text-align: left;
     color: #212529;
     padding: 20px;
+    
 }
 
 .fa-solid fa-bars {
