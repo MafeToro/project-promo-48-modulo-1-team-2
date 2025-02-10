@@ -17,17 +17,33 @@
 
 }
 
+<!-- /* Este es el header: Mafe  -->*/
+
 .header {
     width:100%;
-    font-family: "Work Sans";
+    font-family: Work Sans;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin-top: 15px;
     background-color: #74c69d;
     color: white;
-    ;
+    position: sticky;
+    margin: 20;
+}
+
+.logos {
+    display: flex;
+}
+
+.iconheader {
+    margin: 0 px;
+}
+
+.menuicon {
+    width: 30px;
+    display: flex;
+    margin-right: 30px;
+    fill: white;
 }
 
 /*Seccion de Andrea*/
@@ -96,4 +112,14 @@
 
 .boton {
 
+}
+
+
+/* Media queries */
+
+/* Mobile */
+@media (min-width: 480px) {
+    .containter-images {
+    display: flex;
+    }    
 }
