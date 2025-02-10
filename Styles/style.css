@@ -111,13 +111,24 @@
 
 /* Esta es el hero: Lau  */
 
-.hero-img {
-    background-color: #74c69d;
-    width: 100%;
+
+
+.hero-container {
+    /* height: ; */
     display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    background-color: #74c69d;
+    align-items: center;
     justify-content: center;
-    padding: 20px;
+    gap: 15px;
    
+}
+
+.hero-img {
+    width: 80%;
+    margin: 0 auto;
+
 }
 
 .img1 {
@@ -126,27 +137,37 @@
 }
 
 .hero {
-    background-color: rgb(115, 198, 156);
+    width: 80%;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: start;
+    align-content: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0 20px;
 }
 
-.text {
-
-}
 
 .hero-text1 {
     color: white;
     font-family: "Work Sans", serif;
+    font-size: 1rem;
     font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
+    letter-spacing: 15px;
+    /* margin-bottom: 15px; */
+    
 }
 
 .hero-text2 {
-
+    color: white;
+    font-family: "Crimson Text", serif;
 }
 
 .hero-text3 {
-
+    color: white;
+    font-family: "Work Sans";
 }
 
 .boton {
