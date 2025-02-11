@@ -11,6 +11,24 @@
     padding: 20px;
 }
 
+.nav {
+display: flex;
+justify-content: space-around;
+padding: 10px;
+}
+
+.menudesktop {
+display: flex;
+padding: 0;
+gap: 15px;
+}
+
+.itemlist {
+display: inline-block;
+padding: 0;
+gap: 15px;
+}
+    
 .hamburger {
     display: flex;
 }
@@ -40,5 +58,15 @@
 @media (min-width: 768px) {
 .hamburger {
     display: none;
+.desktop {
+    display: none;
+}
+
 }
 }
+
+@media (max-width: 480px) {
+    .nav {
+        display: none;
+    }
+    }
