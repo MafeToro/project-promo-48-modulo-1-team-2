@@ -8,7 +8,11 @@
     background-color: #74c69d;
     color: white;
     position: sticky;
-    margin: 20;
+    padding: 20px;
+}
+
+.hamburger {
+    display: flex;
 }
 
 .logos {
@@ -28,4 +32,13 @@
 
 .fa-bars {
     font-size: 30px;
+}
+
+/* Media queries */
+
+/* Tablet Desktop */
+@media (min-width: 768px) {
+.hamburger {
+    display: none;
+}
 }
