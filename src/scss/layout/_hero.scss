@@ -1,6 +1,5 @@
 
 .hero-container {
-    /* height: ; */
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
@@ -8,18 +7,14 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-   
 }
 
 .hero-img {
     width: 80%;
-    margin: 0 auto;
-
 }
 
 .img1 {
     width: 100%;
-    
 }
 
 .hero {
@@ -28,12 +23,8 @@
     flex: 1 1 auto;
     flex-direction: column;
     align-items: start;
-    align-content: center;
-    justify-content: space-between;
     gap: 1rem;
-    margin: 0 20px;
 }
-
 
 .hero-text1 {
     color: white;
@@ -42,8 +33,6 @@
     font-optical-sizing: auto;
     font-style: normal;
     letter-spacing: 15px;
-    /* margin-bottom: 15px; */
-    
 }
 
 
@@ -54,20 +43,69 @@
 }
 
 .hero-text3 {
-    color: white;
+
+    color: rgb(255, 255, 255);
     font-family: "Work Sans";
+    font-weight: 200;
 }
 
 .boton {
-
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Work Sans";
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 8%;
 }
-
 
 /* Media queries */
 
-/* Mobile */
-@media (min-width: 480px) {
-    .containter-images {
-    display: flex;
-    }    
+
+/* Tablet-Desktop */
+@media (min-width: 768px) {
+     
+    .hero-container {
+        height: 400px;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 15px;
+    }
+    .hero-img {
+        margin-right: 30px;
+        width: 600px;
+        flex-grow: 0;
+
+    }
+    
+    .hero {
+        width: 50%;
+        height: 300px;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 40px;
+        padding-top: 20px;
+
+    }
+    .hero-text1 {
+        font-size: 0.7rem;
+        letter-spacing: 5px;
+    }
+    .hero-text3 {
+        font-weight: 200;
+        font-size: 0.8rem;
+    }
+
+    .boton {
+
+        margin-top: 20px;
+    }
+
 }
