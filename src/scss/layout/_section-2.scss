@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    padding: 20px;
 }
 
 .box-image-chico {
@@ -55,3 +55,34 @@
     font-family: work sans;
     font-size: 20px;
 }
+
+@media (min-width: 768px) {
+    .container-section-2 {
+        flex-direction: row-reverse;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 130px;
+
+    }
+
+    .box-image-chico {
+        width: 70%;
+    }
+
+    .box-textos-section-2 {
+        width: 70%;
+        padding-right: 110px;
+    }
+
+    .titulo-section-2 {
+        font-size: 45px; 
+    }
+    
+    .texto-section-2 {
+        font-size: 30px;
+        
+    }
+}
+
+
+
