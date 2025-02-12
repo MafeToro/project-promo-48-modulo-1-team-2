@@ -11,10 +11,8 @@
     padding: 20px;
 }
 
-.nav {
-display: flex;
-justify-content: space-around;
-padding: 10px;
+.desktop {
+    display: flex;
 }
 
 .menudesktop {
@@ -30,7 +28,7 @@ gap: 15px;
 }
     
 .hamburger {
-    display: flex;
+    display: none;
 }
 
 .logos {
@@ -48,6 +46,12 @@ gap: 15px;
     fill: white;
 }
 
+
+.nav {
+    display: block;
+    justify-content: space-between;
+}
+
 .fa-bars {
     font-size: 30px;
 }
@@ -55,18 +59,25 @@ gap: 15px;
 /* Media queries */
 
 /* Tablet Desktop */
-@media (min-width: 768px) {
-.hamburger {
-    display: none;
-.desktop {
+@media (max-width: 768px) {
+.nav {
     display: none;
 }
-
+.hamburger {
+    display: flex;
 }
 }
 
 @media (max-width: 480px) {
+    .mobile {
+        display: flex;
+        flex-direction: flex-end;
+        justify-content: space-between;
+    }
     .nav {
         display: none;
+    }
+    .hamburger {
+        display: flex;
     }
     }
