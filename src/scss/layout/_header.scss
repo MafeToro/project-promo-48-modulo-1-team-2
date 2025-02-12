@@ -7,14 +7,18 @@
     align-items: center;
     background-color: #74c69d;
     color: white;
-    position: sticky;
-    padding: 20px;
+    position: fixed;
+    margin: 0px;
+    padding: 10px;
+    z-index: 1;
 }
 
-.nav {
-display: flex;
-justify-content: space-around;
-padding: 10px;
+.desktop {
+    display: flex;
+}
+
+.title {
+    margin-left: 10 px;
 }
 
 .menudesktop {
@@ -30,15 +34,17 @@ gap: 15px;
 }
     
 .hamburger {
-    display: flex;
+    display: none;
 }
 
 .logos {
     display: flex;
+    gap: 20 px;
 }
 
 .iconheader {
     margin: 0 px;
+    padding: 20 px;
 }
 
 .menuicon {
@@ -48,6 +54,12 @@ gap: 15px;
     fill: white;
 }
 
+
+.nav {
+    display: block;
+    justify-content: space-between;
+}
+
 .fa-bars {
     font-size: 30px;
 }
@@ -55,18 +67,25 @@ gap: 15px;
 /* Media queries */
 
 /* Tablet Desktop */
-@media (min-width: 768px) {
-.hamburger {
-    display: none;
-.desktop {
+@media (max-width: 768px) {
+.nav {
     display: none;
 }
-
+.hamburger {
+    display: flex;
 }
 }
 
 @media (max-width: 480px) {
+    .mobile {
+        display: flex;
+        flex-direction: flex-end;
+        justify-content: space-between;
+    }
     .nav {
         display: none;
+    }
+    .hamburger {
+        display: flex;
     }
     }
