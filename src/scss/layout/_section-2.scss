@@ -1,10 +1,12 @@
+
+
 .container-section-2 {
     width: 100%; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    
 }
 
 .box-image-chico {
@@ -12,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    
 }
 
 .chico-img {
@@ -42,6 +44,7 @@
     font-size: 15px;
     color: #21252980;
     text-align: left;
+    
 }
 
 .ver {
@@ -55,3 +58,50 @@
     font-family: work sans;
     font-size: 20px;
 }
+
+
+
+@media (min-width: 768px) {
+    .container-section-2 {
+        flex-direction: row-reverse;
+        justify-content: space-between; 
+        padding: 20px;
+    }
+
+   
+    .box-textos-section-2 {
+        padding-right: 110px;
+        
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .container-section-2 {
+        flex-direction: row-reverse;
+        justify-content: space-between; 
+        padding: 30px;
+    }
+
+    .box-textos-section-2 {
+        padding-right: 15px;
+        
+    }
+
+
+    .titulo-section-2 {
+        font-size: 38px;
+        width: 600px;
+        
+    }
+    
+    .texto-section-2 {
+        font-size: 23px;
+        width: 600px;
+        
+    }
+
+
+
+}
+
