@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:#74c69d;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer_list {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 20 px;
+    align-content: space-around;
+}
+
+.footer-item {
+margin: 10px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 30px;
+    font-family: Work Sans;;
+}
