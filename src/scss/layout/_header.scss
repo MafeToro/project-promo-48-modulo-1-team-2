@@ -3,14 +3,20 @@
     width:100%;
     font-family: Work Sans;
     display: flex;
+    flex: 1 1 auto;
     justify-content: space-between;
     align-items: center;
     background-color: #74c69d;
     color: white;
     position: fixed;
-    margin: 0px;
     padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     z-index: 1;
+}
+
+.header-container {
+    width: 100%;
 }
 
 .desktop {
