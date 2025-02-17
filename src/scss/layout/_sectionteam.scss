@@ -1,0 +1,96 @@
+@use "../core/variables" as vars;
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    gap: 50px;
+}
+
+.team-title {
+    font-family: vars.$font-title;
+}
+
+.team-members {
+   
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    
+}
+
+    .CEO {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+        gap: 15px;
+    }
+
+    .CEO-text {
+        font-family: vars.$font-title;
+    }
+
+    .CEO-position {
+        font-family: vars.$font-text;
+        color: vars.$grey-text;
+    }
+
+
+    .designer {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+        gap: 15px;
+        
+    }
+
+    .designer-text {
+        font-family: vars.$font-title;
+
+    }
+
+    .designer-position {
+        font-family: vars.$font-text;
+        color: vars.$grey-text;
+    }
+
+    .CTO {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+        gap: 15px;    
+    }
+
+    .CTO-text {
+        font-family: vars.$font-title;
+    }
+
+    .CTO-position {
+        font-family: vars.$font-text;
+        color: vars.$grey-text;
+    }
+
+    .developer {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+        gap: 15px;
+        
+    }
+
+    .developer-text {
+        font-family: vars.$font-title;
+    }
+
+    .developer-position {
+        font-family: vars.$font-text;
+        color: vars.$grey-text;
+    }
