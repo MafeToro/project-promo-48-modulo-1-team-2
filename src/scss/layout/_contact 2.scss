@@ -1,0 +1,93 @@
+
+.contact-texts {
+    font-family: "Work Sans";
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.contact-text {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: inline-block;
+    }
+
+}
+
+.contactpage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    @media (min-width: 768px) {
+        flex-direction: row-reverse;
+        margin: 20px;
+        padding-right: 20px;
+    
+    }
+
+}
+
+.title {
+    padding: 20px;
+}
+
+
+.box-googlemaps {
+    padding-top: 30px;
+    width: 90%;
+
+    @media (min-width: 768px) {
+        padding-right: 30px;
+        
+    
+    }
+
+}
+
+.googglemaps {
+    width: 100%;
+}
+
+.form-contact {
+    width: 90%;
+
+}
+
+
+.contact-details {
+    font-family: "work sans";
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 0;
+    gap: 10px;
+    
+}
+
+.submit {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    font-family: "work sans";
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
