@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./scss/main.scss">
+</head>
+<body>
+    <load src="./partials/header.html"/>
+    
+    <section class="contactpage">
+        <h2 class="title">Contáctanos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="contactpage-content"> 
+          <div class="box-googlemaps">
+              <img class="googglemaps" src="./images/mapa-ubicacion.png" alt="map">
+          </div>
+          <div class="form-contact">
+              <form class="form" action="https://dev.adalab.es/api/form"></form>
+              <fieldset class="contact-details">
+                 <label for="name">Nombre</label>
+                 <input id="name" type="text">
+                 <label for="email">Email</label>
+                 <input id="email" type="text">
+                 <textarea name="message" id="comments" cols="20" rows="8"></textarea>
+                 <input type="submit" value="Submit">
+              </fieldset>
+          </div>
+      </div> 
+  </section>
+
+  <load src="./partials/footer.html"/>
+</body>
+</html>
