@@ -1,5 +1,6 @@
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     background-color:#74c69d;
     align-items: center;
@@ -31,3 +32,10 @@ margin: 10px;
     font-family: Work Sans;;
 }
 
+/* Tablet Desktop */
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+    }
