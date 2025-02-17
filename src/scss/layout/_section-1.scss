@@ -104,4 +104,42 @@
         justify-content: center;
         gap: 15px;
     }
+
+    .tittle2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .parrafo-group {
+        margin-bottom: 20px;
+
+    }
+    .group {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1024px) {
+     
+    .sect1 {
+        height: 400px;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .tittle2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .parrafo-group {
+        margin-bottom: 20px;
+
+    }
+    .group {
+        width: 600px;
+    }
 }

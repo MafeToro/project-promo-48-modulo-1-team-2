@@ -5,23 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="./scss/main.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2>Contáctanos</h2>
-    <img class="google-maps" src="https://www.google.es/maps/place/CRN+en+Edificaci%C3%B3n+y+Obra+Civil/@40.4952596,-3.6402064,12.14z/data=!4m6!3m5!1s0xd42317bfe5ad991:0x2b3d46f3fef3d044!8m2!3d40.4942431!4d-3.5355141!16s%2Fg%2F1td8_f9j?hl=es&entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D" alt="map">
-    <form action="https://dev.adalab.es/api/form">Contacto</form>
-    <fieldset class="contact-details">
-        <label for="name">Nombre</label>
-        <input id="name" type="text">
-        <label for="email">Email</label>
-        <input id="email" type="text">
-        <label for="message">Mensaje</label>
-        <input id="message" type="text">
-        <input type="submit" value="Submit">
-    </fieldset>
+    <load src="./partials/header.html"/>
+    <div class="contact-texts">
+       <h2 class="title">Contáctanos</h2>
+      <p class="contact-text">Escríbenos para solicitar más información.</p>
+   </div>
+    
+    <section class="contactpage">
+          <div class="box-googlemaps">
+              <img class="googglemaps" src="./images/mapa-ubicacion.png" alt="map">
+          </div>
+          <div class="form-contact">
+              <form class="form" action="https://dev.adalab.es/api/form"></form>
+              <fieldset class="contact-details">
+                 <label for="name">Nombre</label>
+                 <input id="name" type="text">
+                 <label for="email">Email</label>
+                 <input id="email" type="text">
+                 <label for="message">Mensaje</label>
+                 <textarea name="message" id="comments" cols="20" rows="8"></textarea>
+                 <input class="submit" type="submit" value="Submit">
+              </fieldset>
+          </div>
+      
+  </section>
 
+  <load src="./partials/footer.html"/>
+</body>
+</html>
 
 
     
-</body>
-</html>
