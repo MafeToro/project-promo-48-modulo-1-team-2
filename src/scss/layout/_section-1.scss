@@ -1,31 +1,47 @@
-.group {
-    width: 100%;
+.sect1 {
+    margin: 20px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     padding: 20px;
+
 }
 
-/* .group-section {
-} */
-
+.imgchicas {
+    width: 100%;
+}
 
 .title-group {
     width: 300px;
     height: 50px;
     flex-grow: 0;
     font-family: "Crimson Text", serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: #212529;
-    padding: 20px;
+    padding: 20px; 
     
 }
+
+.tittle {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
 
 .fa-solid fa-bars {
     font-size: 18px;
@@ -36,11 +52,11 @@
 }
 
 .parrafo-group {
-    width: 500px;
-    height: 110px;
+    width: 300px;
+    height: 130px;
     flex-grow: 0;
     font-family: "Work Sans", serif;
-    font-size: 20px;
+    font-size: 15px;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
@@ -48,7 +64,6 @@
     letter-spacing: normal;
     text-align: left;
     color: var(--color-dark-50);
-    padding: 20px;
   }
 
 .see-more
@@ -56,21 +71,75 @@
     width: 60px;
     height: 20px;
     font-family: "Work Sans", serif;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
     letter-spacing: normal;
     text-align: center;
-    color: var(--color-white-100)
+    color: white;
 }
 
 .rectangle {
-    width: 120px;
-    height: 30px;
-    margin: 15 px 150px 0 0;
-    padding: 8px 30.5px 5px 30.5px;
+    width: fit-content;
     border-radius: 5px;
     background-color: #212529;
+    padding-inline: 30px;
+    padding: 20px;
+}
+
+.div-button {
+    display: flex;
+    align-items: left;
+}
+
+@media (min-width: 768px) {
+     
+    .sect1 {
+        height: 400px;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .tittle2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .parrafo-group {
+        margin-bottom: 20px;
+
+    }
+    .group {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1024px) {
+     
+    .sect1 {
+        height: 400px;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .tittle2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .parrafo-group {
+        margin-bottom: 20px;
+
+    }
+    .group {
+        width: 600px;
+    }
 }
