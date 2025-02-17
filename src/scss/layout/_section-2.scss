@@ -1,0 +1,82 @@
+
+
+.container-section-2 {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 40px;
+
+    @media (min-width: 768px) {
+            flex-direction: row-reverse;
+            justify-content: space-between; 
+        }  
+ }
+
+
+.box-image-chico {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px; 
+
+    @media (min-width: 1024px) {
+        width: 50%;
+    }
+}
+
+
+.chico-img {
+    width: 100%;   
+}
+
+
+.box-texts-section-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    gap: 20px;
+  
+}
+
+
+.title-section-2 {
+    font-family: "Crimson Text", serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+
+    @media (min-width: 1024px) {
+            font-size: 38px;
+            width: 600px;
+        }  
+}
+
+
+
+.text-section-2 {
+    font-family: "Work Sans", serif;
+    font-weight: regular;
+    font-size: 15px;
+    color: #21252980;
+    text-align: left;  
+}
+
+
+.ver {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    font-family: work sans;
+    font-size: 20px;
+}

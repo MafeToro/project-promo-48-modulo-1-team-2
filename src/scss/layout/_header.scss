@@ -1,0 +1,97 @@
+
+.header {
+    width:100%;
+    font-family: Work Sans;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #74c69d;
+    color: white;
+    position: fixed;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 1;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.desktop {
+    display: flex;
+}
+
+.title {
+    margin-left: 10 px;
+}
+
+.menudesktop {
+display: flex;
+padding: 0;
+gap: 15px;
+}
+
+.itemlist {
+display: inline-block;
+padding: 0;
+gap: 15px;
+}
+    
+.hamburger {
+    display: none;
+}
+
+.logos {
+    display: flex;
+    gap: 20 px;
+}
+
+.iconheader {
+    margin: 0 px;
+    padding: 20 px;
+}
+
+.menuicon {
+    width: 30px;
+    display: flex;
+    margin-right: 30px;
+    fill: white;
+}
+
+
+.nav {
+    display: block;
+    justify-content: space-between;
+}
+
+.fa-bars {
+    font-size: 30px;
+}
+
+/* Media queries */
+
+/* Tablet Desktop */
+@media (max-width: 768px) {
+.nav {
+    display: none;
+}
+.hamburger {
+    display: flex;
+}
+}
+
+@media (max-width: 480px) {
+    .mobile {
+        display: flex;
+        flex-direction: flex-end;
+        justify-content: space-between;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+    }
+    }
