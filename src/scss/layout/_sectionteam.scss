@@ -94,3 +94,54 @@
         font-family: vars.$font-text;
         color: vars.$grey-text;
     }
+
+    /* Media queries */
+
+
+/* Tablet-Desktop */
+@media (min-width: 768px) {
+
+    .team-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 50px;
+        margin-bottom: 80px;
+
+    }
+    .team-members {
+   
+        display: grid;
+        grid-template-columns: 180px 180px 180px 180px;
+        grid-template-rows: 230px;
+        grid-gap: 30px;
+        
+    }
+
+    .CEO-text {
+        font-size: 12px;
+    }
+
+    .designer-text {
+        font-size: 12px;
+    }
+
+    .CTO-text {
+        font-size: 12px;
+    }
+
+    .developer-text {
+        font-size: 12px;
+    }
+    
+    .team-title {
+        font-family: vars.$font-title;
+    }
+    
+   
+
+
+
+}
