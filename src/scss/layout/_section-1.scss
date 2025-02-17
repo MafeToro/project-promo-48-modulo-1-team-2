@@ -1,5 +1,9 @@
 .sect1 {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .group {
@@ -9,6 +13,7 @@
     justify-content: center;
     align-content: center;
     padding: 20px;
+
 }
 
 .imgchicas {
@@ -20,16 +25,21 @@
     height: 50px;
     flex-grow: 0;
     font-family: "Crimson Text", serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: #212529;
     padding: 20px; 
     
+}
+
+.tittle {
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 
@@ -42,8 +52,8 @@
 }
 
 .parrafo-group {
-    width: 500px;
-    height: 110px;
+    width: 300px;
+    height: 130px;
     flex-grow: 0;
     font-family: "Work Sans", serif;
     font-size: 15px;
@@ -72,10 +82,26 @@
 }
 
 .rectangle {
-    width: 120px;
-    height: 30px;
-    margin: 15 px 150px 0 0;
-    padding: 8px 30.5px 5px 30.5px;
+    width: fit-content;
     border-radius: 5px;
     background-color: #212529;
+    padding-inline: 30px;
+    padding: 20px;
+}
+
+.div-button {
+    display: flex;
+    align-items: left;
+}
+
+@media (min-width: 768px) {
+     
+    .sect1 {
+        height: 400px;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
 }
