@@ -1,26 +1,29 @@
+@use "../core/variables" as vars;
 
 .hero-container {
+
     display: flex;
-    flex: 1 1 auto;
     flex-direction: column;
-    background-color: #74c69d;
+    background-color: vars.$main-color;
     align-items: center;
     justify-content: center;
     gap: 15px;
 }
 
 .hero-img {
+
     width: 80%;
+    margin-top: 80px;
 }
 
 .img1 {
     width: 100%;
+    max-width: 600px;
 }
 
-.hero {
+.hero-text {
     width: 80%;
     display: flex;
-    flex: 1 1 auto;
     flex-direction: column;
     align-items: start;
     gap: 1rem;
@@ -28,7 +31,7 @@
 
 .hero-text1 {
     color: white;
-    font-family: "Work Sans", serif;
+    font-family: vars.$font-text;
     font-size: 1rem;
     font-optical-sizing: auto;
     font-style: normal;
@@ -39,13 +42,13 @@
 
 .hero-text2 {
     color: white;
-    font-family: "Crimson Text", serif;
+    font-family: vars.$font-title;
 }
 
 .hero-text3 {
 
     color: rgb(255, 255, 255);
-    font-family: "Work Sans";
+    font-family: vars.$font-text;
     font-weight: 200;
 }
 
@@ -55,7 +58,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Work Sans";
+    font-family: vars.$font-text;
     width: 140px;
     height: 35px;
     border-radius: 5px;
@@ -68,7 +71,7 @@
 /* Tablet-Desktop */
 @media (min-width: 768px) {
      
-    .hero-container {
+ /*    .hero-container {
         height: 400px;
         display: flex;
         flex: 1 1 auto;
@@ -81,17 +84,39 @@
         width: 600px;
         flex-grow: 0;
 
+    } */
+    .hero-container {
+
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: vars.$main-color;
+        align-items: center;
+        gap: 15px;
+        height: 400px;
+        width: 100%;
     }
     
-    .hero {
+    .hero-img {
+
+        width: 80%;
+        margin-right: 80px;
+        margin-bottom: 50px;
+    }
+    
+    .img1 {
+        width: 100%;
+    }
+    
+    .hero-text {
+
         width: 50%;
-        height: 300px;
         display: flex;
-        flex: 1 1 auto;
         flex-direction: column;
-        align-items: start;
-        padding-left: 40px;
-        padding-top: 20px;
+        justify-content: center;
+        margin-left: 80px;
+        margin-top: 80px;
+        padding-right: 50px;
+       
 
     }
     .hero-text1 {
@@ -100,7 +125,7 @@
     }
     .hero-text3 {
         font-weight: 200;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .boton {
